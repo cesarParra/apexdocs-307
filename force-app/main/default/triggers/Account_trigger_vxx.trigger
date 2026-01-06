@@ -7,5 +7,4 @@ trigger Account_trigger_vxx on Account bulk (before delete, after delete) {
             acc.Description = 'This is a test account';
         }
     }
-    // change
 }
